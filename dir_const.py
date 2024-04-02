@@ -1,0 +1,15 @@
+import os
+
+PROJECT_DIR = os.path.dirname(os.path.realpath(__file__))
+MODELS_DIR = os.path.join(PROJECT_DIR, 'models')
+DATA_DIR = os.path.join(PROJECT_DIR, 'data')
+DATA_RAW_DIR = os.path.join(DATA_DIR, 'raw')
+DATA_PROCESSED_DIR = os.path.join(DATA_DIR, 'processed')
+DATA_INTERIM_DIR = os.path.join(DATA_DIR, 'interim')
+MISC_DIR = os.path.join(PROJECT_DIR, 'misc')
+FEATURES_DIR = os.path.join(PROJECT_DIR, 'features')
+METRICS_DIR = os.path.join(PROJECT_DIR, 'metrics')
+PLOTS_DIR = os.path.join(PROJECT_DIR, 'plots')
+SRC_DATA_DIR = os.path.join(PROJECT_DIR, 'src/data')
+SRC_DATASET_DIR = os.path.join(PROJECT_DIR, 'src/datasets')
+LOG_DIR = os.path.join(PROJECT_DIR, 'logs')
